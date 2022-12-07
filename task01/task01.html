@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+    <script src="task01.js"></script>
+    <title>Task01</title>
+</head>
+
+<body>
+    <h1>Registration form</h1>
+    <form>
+        <label>Surname</label><br><input id="surname" type="text"><br>
+        <label>Name</label><br><input id="name" type="text"><br>
+        <label>Age</label><br><input id="age" type="text"><br>
+        <label>Residence</label><br><input id="residence" type="text"><br>
+        <p id="message" style="color:red;">To submit the form, you need to correctly enter all the fields!</p>
+        <input id="AjaxGET" type="button" value="Ajax GET" disabled>
+        <input id="AjaxPOST" type="button" value="Ajax POST" disabled>
+        <input id="clearFields" type="button" value="Clear fields">
+    </form>
+
+    <style>
+        .error {
+            border-color: red;
+            outline: 0;
+        }
+    </style>
+</body>
+
+</html>
